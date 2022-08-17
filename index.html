@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>wine</title>
-</head>
-<body>
-    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>wine</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <span class="header__descr">We Ship Everywhere! Free In The Us!</span>
+                    <img src="./src/img/header/logo.svg" alt="logo" class="header__logo">
+                    <div class="header__nav--wrapper">
+                        <ul class="header__nav">
+                            <li class="header__item header__inner">Login</li>
+                            <li class="header__item header__inner">Register</li>
+                            <li class="header__item header__inner">Wish List (0)</li>
+                            <li class="header__item"><img src="./src/img/header/Search.svg" alt="serch" class="header__image"></li>
+                            <li class="header__item"><img src="./src/img/header/Bag.svg" alt="bag" class="header__image"></li>
+                        </ul>
+                        <div class="burger">
+                            <div class="burger__menu">
+                                <div class="burger__line"></div>
+                                <div class="burger__line"></div>
+                                <div class="burger__line"></div>
+                            </div>
+                            <div class="burger__list">
+                                <ul class="burger__nav">
+                                    <li class="burger__item burger__inner">Login</li>
+                                    <li class="burger__item burger__inner">Register</li>
+                                    <li class="burger__item burger__inner">Wish List (0)</li>
+                                    <li class="burger__item "><img src="./src/img/header/Search.svg" alt="serch" class="burger__image"></li>
+                                    <li class="burger__item "><img src="./src/img/header/Bag.svg" alt="bag" class="burger__image"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
 
-    <header class="header"></header>
+        <section class="pages">
+            <div class="container">
+               <ul class="pages__list"></ul>
 
+               <div class="plov">
+                    <div class="plov__menu">
+                        <div class="plov__line"></div>
+                        <div class="plov__line"></div>
+                        <div class="plov__line"></div>
+                    </div>
+                    <div class="plov__list">
+                        <ul class="plov__nav"></ul>
+                    </div>
+               </div>
+            </div>
+        </section>
 
-
-    <script src="./src/router/app.js"></script>
-</body>
+        <script src="./src/router/app.js"></script>
+    </body>
 </html>

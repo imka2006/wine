@@ -1,0 +1,21 @@
+@mixin  font ($whight, $size, $color) {
+    font-weight: $whight;
+    font-size: $size;
+    color: $color;
+}
+@mixin  allfont ($family ,$whight, $size, $color) {
+    font-family: $family;
+    font-weight: $whight;
+    font-size: $size;
+    color: $color;
+}
+@mixin  box ($width, $height, $bg) {
+    width: $width;
+    height: $height;
+    background: $bg;
+}
+@mixin  flex ($flex, $center, $item) {
+    display: $flex;
+    justify-content: $center;
+    align-items: $item;
+}

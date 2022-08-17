@@ -1,0 +1,32 @@
+.pages {
+    font-family: "CB";
+    margin-top: 15px;
+    &__list {
+        padding: 22px 0;
+        @include flex(flex, space-between, center);
+        border-top: 1px solid rgba(255, 255, 255, 0.6);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    &__item {
+        @include font(400, 16px, $white);
+        cursor: pointer;
+    }
+    &__hover {
+        position: relative;
+        transition: 0.3s;
+        color: $liteYellow;
+        &::before {
+            content: "";
+            position: absolute;
+            @include box(100%, 1px, $liteYellow);
+            bottom: -5px;
+            transition: 0.3s;
+        }
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .pages__list {
+        display: none;
+    }
+}

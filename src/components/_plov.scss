@@ -1,0 +1,65 @@
+.plov {
+    display: none;
+    &__line {
+        @include box (25px, 2px, $white);
+        margin: 5px 0;
+    }
+    &__menu {
+        z-index: 11;
+        position: relative;
+        cursor: pointer
+    }
+    &__item {
+        @include font(400, 16px, $white);
+        cursor: pointer;
+        margin: 0 auto;
+        &.pages__hover {
+            color: $liteYellow;
+        }
+    }
+    &__inner {
+        display: block;
+    }
+    &__list {
+        position: absolute;
+        @include box(100vw, 0vh, $whiteBlack);
+        transition: .3s;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+        @include flex (flex, center, center)
+    }
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &.active .plov__list {
+        height: 100vh;
+    }
+    &.active .plov__line {
+        margin: 0;
+    }
+    &.active .plov__line:nth-child(2) {
+        display: none;
+    }
+    &.active .plov__line:nth-child(3) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 5px;
+
+    }
+    &.active .plov__line:nth-child(1  ) {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 5px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .plov {
+        display: block;
+    }
+}
