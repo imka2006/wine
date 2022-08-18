@@ -490,4 +490,47 @@ button {
     font-size: 12px;
   }
 }
+
+.catalog {
+  font-family: 'CB';
+  margin: 151px 0 174px;
+}
+
+.catalog__wrapper {
+  text-align: center;
+}
+
+.catalog__title {
+  font-weight: 400;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.catalog__filter--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  max-width: 417px;
+  margin-top: 90px;
+}
+
+.catalog__item {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.catalog__line {
+  margin: 4px auto 0;
+  width: 417px;
+  height: 1px;
+  background: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */

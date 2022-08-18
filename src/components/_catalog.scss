@@ -1,0 +1,27 @@
+.catalog {
+    font-family: 'CB';
+    margin: 151px 0 174px;
+    &__wrapper {
+        text-align: center;
+    }
+    &__title {
+        @include font (400, 48px, $white);
+        text-align: center;
+    }
+    &__filter--wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 417px;
+        margin-top: 90px;
+    }
+    &__item {
+        @include allfont ('Poppins', 400, 24px, $white);
+        cursor: pointer;
+    }
+    &__line {
+        margin: 4px auto 0;
+        @include box (417px, 1px, $white)
+    }
+    
+}
