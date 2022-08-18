@@ -11,18 +11,6 @@
         @include font(400, 16px, $white);
         cursor: pointer;
     }
-    &__hover {
-        position: relative;
-        transition: 0.3s;
-        color: $liteYellow;
-        &::before {
-            content: "";
-            position: absolute;
-            @include box(100%, 1px, $liteYellow);
-            bottom: -5px;
-            transition: 0.3s;
-        }
-    }
 }
 
 @media screen and (max-width:1020px) {

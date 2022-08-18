@@ -19,11 +19,10 @@
     }
     &__list {
         position: absolute;
-        @include box(100vw, 0vh, $whiteBlack);
-        transition: .3s;
+        @include box(0vw, 100vh, $whiteBlack);
+        transition: .2s;
         overflow: hidden;
         top: 0;
-        left: 0;
         bottom: 0;
         right: 0;
         z-index: 10;
@@ -38,7 +37,7 @@
         margin: 0 auto;
     }
     &.active .burger__list {
-        height: 100vh;
+        width: 100vw;
     }
     &.active .burger__line:nth-child(2) {
         display: none;

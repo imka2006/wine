@@ -30,13 +30,13 @@ for (let i = 0; i < pagesMath.length; i++) {
 }
 
 const pagesItem = document.querySelectorAll(".pages__item");
-pagesItem[0].classList.add("pages__hover");
+pagesItem[0].classList.add("click");
 pagesItem.forEach((item) => {
     item.addEventListener("click", () => {
         pagesItem.forEach((itemTwo) => {
-            itemTwo.classList.remove("pages__hover");
+            itemTwo.classList.remove("click");
         });
-        item.classList.add("pages__hover");
+        item.classList.add("click");
     });
 });
 const plov = document.querySelector(".plov");
@@ -58,12 +58,12 @@ for (let i = 0; i < pagesMath.length; i++) {
 }
 
 const plovItem = document.querySelectorAll(".plov__item");
-plovItem[0].classList.add("pages__hover");
+plovItem[0].classList.add("click");
 plovItem.forEach((item) => {
     item.addEventListener("click", () => {
         plovItem.forEach((itemTwo) => {
-            itemTwo.classList.remove("pages__hover");
+            itemTwo.classList.remove("click");
         });
-        item.classList.add("pages__hover");
+        item.classList.add("click");
     });
 });

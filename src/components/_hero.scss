@@ -1,0 +1,57 @@
+.hero {
+    margin-top: 190px;
+    font-family: 'CB';
+    &__content {
+        text-align: center;
+    }
+    &__coment {
+        @include font (400, 24px, $white);
+        margin-bottom: 32px;
+    }
+    &__title {
+        @include font (400, 96px, $white)
+    }
+    &__descr {
+        @include allfont ('Poppins', 300, 16px, $white);
+        max-width: 745px;
+        margin: 24px auto 35px;
+    }
+    &__link {
+        @include font (400, 16px, $white);
+    }
+    &__image {
+        max-width: 100%;
+        margin-top: 37px;
+    }
+}
+@media screen and (max-width:830px) {
+    .hero {
+        margin-top: 90px;
+        &__title {
+            font-size: 55px;
+        }
+        &__coment {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 12px;
+            margin-top: 10px;
+            max-width: 500px;
+        }
+    }
+}
+@media screen and (max-width:460px) {
+    .hero {
+        margin-top: 50px;
+        &__title {
+            font-size: 35px;
+        }
+        &__coment {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+
+    }
+}
