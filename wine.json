@@ -1,0 +1,156 @@
+{
+    "wine": [
+        {
+            "id": 0,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/e86/255_260_240cd750bba9870f18aada2478b24840a/e867c0df8ffc75208c1606848b18ca18.jpg",
+            "years": 2019,
+            "name": "Fanagoria",
+            "price": 599,
+            "discount": 699,
+            "sale": "New",
+            "category": "Red"
+        },
+        {
+            "id": 1,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/f7c/255_260_240cd750bba9870f18aada2478b24840a/f7c61663c6fe90df84b2dd2b08d919d6.jpg",
+            "years": 2016,
+            "name": "АВ КЮВЕ",
+            "price": 689,
+            "discount": 710,
+            "sale": "New",
+            "category": "Red"
+        },
+        {
+            "id": 2,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/a74/255_260_240cd750bba9870f18aada2478b24840a/a740fae98ade19335bf67b729cdf2f9d.jpg",
+            "years": 2019,
+            "name": "Raevsky winery",
+            "price": 995,
+            "discount": 1100,
+            "sale": "New",
+            "category": "Red"
+        },
+        {
+            "id": 3,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/def/255_260_240cd750bba9870f18aada2478b24840a/deff44b2870ddc9e7c2554850d913861.jpg",
+            "years": 2016,
+            "name": "Alma Valley",
+            "price": 536,
+            "discount": 599,
+            "sale": "New",
+            "category": "Red"
+        },
+        {
+            "id": 4,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/8b8/255_260_240cd750bba9870f18aada2478b24840a/8b80137c9bf8997e6a7d6fd34e2b5e2f.jpg",
+            "years": 2012,
+            "name": "Alma Valley",
+            "price": 1499,
+            "discount": 1699,
+            "sale": "New",
+            "category": "Red"
+        },
+
+        {
+            "id": 5,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/512/255_260_240cd750bba9870f18aada2478b24840a/512eb4fcaec795b2ef70aae1d406c8f8.jpg",
+            "years": 2020,
+            "name": "Inkerman",
+            "price": 499,
+            "discount": 599,
+            "sale": "New",
+            "category": "White"
+        },
+        {
+            "id": 6,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/a1b/255_260_240cd750bba9870f18aada2478b24840a/a1b65944b1940fc79a4fff0e9e394e03.jpg",
+            "years": 2018,
+            "name": "Мысхако",
+            "price": 668,
+            "discount": 744,
+            "sale": "New",
+            "category": "White"
+        },
+        {
+            "id": 7,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/43c/255_260_240cd750bba9870f18aada2478b24840a/43cc20d0279292e26b95df8b46b75314.jpg",
+            "years": 2016,
+            "name": "Шато Тамань",
+            "price": 571,
+            "discount": 699,
+            "sale": "New",
+            "category": "White"
+        },
+        {
+            "id": 8,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/7a2/255_260_240cd750bba9870f18aada2478b24840a/7a22f4916998838952e5665a44f3572a.jpg",
+            "years": 2014,
+            "name": "Фанагория",
+            "price": 773,
+            "discount": 874,
+            "sale": "New",
+            "category": "White"
+        },
+        {
+            "id": 9,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/1e5/255_260_240cd750bba9870f18aada2478b24840a/1e5558a67dd148d17ef67e7eabf4dd0e.jpg",
+            "years": 2008,
+            "name": "Саук-Дере",
+            "price": 2149,
+            "discount": 2599,
+            "sale": "New",
+            "category": "White"
+        },
+
+        {
+            "id": 10,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/94c/255_260_240cd750bba9870f18aada2478b24840a/94cb984aee61f691e19919124e50c5c7.jpg",
+            "years": 2018,
+            "name": "Chateau",
+            "price": 543,
+            "discount": 699,
+            "sale": "New",
+            "category": "Rose"
+        },
+        {
+            "id": 11,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/250/255_260_240cd750bba9870f18aada2478b24840a/250da58cd3c6cf3d9b1aed3b8256ec5c.jpg",
+            "years": 2016,
+            "name": "Высокий берег",
+            "price": 559,
+            "discount": 624,
+            "sale": "New",
+            "category": "Rose"
+        },
+        {
+            "id": 12,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/b51/255_260_240cd750bba9870f18aada2478b24840a/b51063b1e95784becdfa56c70bebb930.jpg",
+            "years": 2014,
+            "name": "Фанагория",
+            "price": 420,
+            "discount": 551,
+            "sale": "New",
+            "category": "Rose"
+        },
+        {
+            "id": 13,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/52d/255_260_240cd750bba9870f18aada2478b24840a/52d12bb9f04d752512338d53b05661b5.jpg",
+            "years": 2009,
+            "name": "Chateau Tamagne",
+            "price": 2341,
+            "discount": 2599,
+            "sale": "New",
+            "category": "Rose"
+        },
+        {
+            "id": 14,
+            "img": "https://rskrf.ru/upload/resize_cache/iblock/1d7/255_260_240cd750bba9870f18aada2478b24840a/1d732267a75a4cb913b0e0b9ac65473d.jpg",
+            "years": 2001,
+            "name": "Гай-Кодзор",
+            "price": 5982,
+            "discount": 6450,
+            "sale": "New",
+            "category": "Rose"
+        }
+    ]
+}

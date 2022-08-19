@@ -23,5 +23,47 @@
         margin: 4px auto 0;
         @include box (417px, 1px, $white)
     }
-    
+    &__content {
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__block {
+        max-width: 255px;
+        overflow: hidden;
+        position: relative;
+        background: $whiteBlack;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    &__sale {
+        position: absolute;
+        left: 10px;
+        top: 15px;
+        padding: 10px 15px;
+        border-radius: 2px;
+        background: $liteYellow;
+        @include allfont ('Poppins', 400, 14px, $black);
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__name {
+        margin: 20px auto 10px;
+        @include font (400, 24px, $white);
+        max-width: 255px;
+    }
+    &__discount {
+        @include font (300, 16px, $liteYellow);
+        margin-right: 5px;
+    }
+    &__price {
+        @include font (400, 24px, $liteYellow);
+    }
 }
